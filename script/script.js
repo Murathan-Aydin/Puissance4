@@ -1,4 +1,4 @@
 import Game from '../modules/game.js';
 
-const game = new Game(5, 5);
+const game = new Game(4, 4);
 game.createGrid();

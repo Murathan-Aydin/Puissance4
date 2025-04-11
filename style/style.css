@@ -1,29 +1,50 @@
-.container {
-  width: -moz-fit-content;
-  width: fit-content;
+.game {
+  width: 100%;
   height: 100%;
-  padding: 20px;
-  border-radius: 10px;
-  min-height: 400px;
-  background-color: blue;
-}
-.container .grid {
-  gap: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-.container .grid .colomn {
-  gap: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.container .grid .colomn .cell {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: white;
-}/*# sourceMappingURL=style.css.map */
+  position: relative; }
+  .game .container {
+    width: fit-content;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 400px;
+    background-color: blue; }
+    .game .container .grid {
+      gap: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; }
+      .game .container .grid .colomn {
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .game .container .grid .colomn .cell {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          background-color: white; }
+  .game .instructions {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-left: 4px solid #007bff; }
+  .game .reset {
+    z-index: 10;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none; }
+
+/*# sourceMappingURL=style.css.map */
