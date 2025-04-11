@@ -1,0 +1,29 @@
+.container {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 400px;
+  background-color: blue;
+}
+.container .grid {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.container .grid .colomn {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .grid .colomn .cell {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white;
+}/*# sourceMappingURL=style.css.map */
